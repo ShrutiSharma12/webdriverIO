@@ -1,0 +1,147 @@
+{
+  "uid" : "82df23869d8cfbc1",
+  "name" : "When user clicks on createaccount button",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.When user clicks on createaccount button",
+  "historyId" : "44082044d3b01d55c83f01ba544efb6",
+  "time" : {
+    "start" : 1611486874883,
+    "stop" : 1611486875538,
+    "duration" : 655
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486874886,
+        "stop" : 1611486874929,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c86da98b3c662dbc",
+        "name" : "Request",
+        "source" : "c86da98b3c662dbc.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "d5afe56d565533b2",
+        "name" : "Response",
+        "source" : "d5afe56d565533b2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/cc368cfb-b0ba-47da-803e-a19d9fde67a7/click",
+      "time" : {
+        "start" : 1611486874936,
+        "stop" : 1611486875054,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486875055,
+        "stop" : 1611486875530,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d61581aa841b9c9e",
+        "name" : "Screenshot",
+        "source" : "d61581aa841b9c9e.png",
+        "type" : "image/png",
+        "size" : 116268
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user clicks on createaccount button"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a47be5343a7ef2eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463947117,
+        "stop" : 1611463947553,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "bf5d99999acf4f68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452317985,
+        "stop" : 1611452318406,
+        "duration" : 421
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82df23869d8cfbc1.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

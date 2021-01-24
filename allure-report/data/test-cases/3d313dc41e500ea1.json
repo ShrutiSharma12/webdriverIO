@@ -1,0 +1,126 @@
+{
+  "uid" : "3d313dc41e500ea1",
+  "name" : "Given user on the login page",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.Given user on the login page",
+  "historyId" : "a6718bc8a3c148711aa08a207ba8eba5",
+  "time" : {
+    "start" : 1611486853981,
+    "stop" : 1611486867722,
+    "duration" : 13741
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611486853985,
+        "stop" : 1611486866587,
+        "duration" : 12602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a650c3ccba25cd61",
+        "name" : "Request",
+        "source" : "a650c3ccba25cd61.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486866591,
+        "stop" : 1611486867688,
+        "duration" : 1097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c240029218809e2b",
+        "name" : "Screenshot",
+        "source" : "c240029218809e2b.png",
+        "type" : "image/png",
+        "size" : 874651
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user on the login page"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b8ac096932b7180e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463934300,
+        "stop" : 1611463942836,
+        "duration" : 8536
+      }
+    }, {
+      "uid" : "1b0238b7dd87db0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452308401,
+        "stop" : 1611452315168,
+        "duration" : 6767
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d313dc41e500ea1.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

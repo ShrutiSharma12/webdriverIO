@@ -1,0 +1,285 @@
+{
+  "uid" : "2aa27ff5f8b745bb",
+  "name" : "Then deatils of Shruti and Sharma should be matched",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.Then deatils of Shruti and Sharma should be matched",
+  "historyId" : "a92b6366771106e54301d37d905cc809",
+  "time" : {
+    "start" : 1611486930969,
+    "stop" : 1611486936587,
+    "duration" : 5618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486930971,
+        "stop" : 1611486931074,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c93961bb2d91a79",
+        "name" : "Request",
+        "source" : "2c93961bb2d91a79.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "b4cfa713557957fc",
+        "name" : "Response",
+        "source" : "b4cfa713557957fc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/611458b8-d7f0-497c-a43a-e7139db0edaa/click",
+      "time" : {
+        "start" : 1611486931084,
+        "stop" : 1611486933167,
+        "duration" : 2083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486933168,
+        "stop" : 1611486933215,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2225fba3e0e2d809",
+        "name" : "Request",
+        "source" : "2225fba3e0e2d809.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "54634936e7c111ae",
+        "name" : "Response",
+        "source" : "54634936e7c111ae.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/9916bec0-55ee-4d1f-9774-fa93aeb9b0ba/click",
+      "time" : {
+        "start" : 1611486933225,
+        "stop" : 1611486936042,
+        "duration" : 2817
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486936044,
+        "stop" : 1611486936080,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3199daae7398bcaf",
+        "name" : "Request",
+        "source" : "3199daae7398bcaf.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "cda3d7fc2dc30f72",
+        "name" : "Response",
+        "source" : "cda3d7fc2dc30f72.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/8dde9fe6-3d43-4b9b-a81a-8d4b749c78c4/property/value",
+      "time" : {
+        "start" : 1611486936086,
+        "stop" : 1611486936104,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9dfb046005007f2",
+        "name" : "Response",
+        "source" : "b9dfb046005007f2.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486936105,
+        "stop" : 1611486936135,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "701b2ad9f3c1e777",
+        "name" : "Request",
+        "source" : "701b2ad9f3c1e777.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "27b4fa67826d4dec",
+        "name" : "Response",
+        "source" : "27b4fa67826d4dec.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/5f43ed93-2f2c-4295-886d-57bc02a63847/property/value",
+      "time" : {
+        "start" : 1611486936142,
+        "stop" : 1611486936165,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75bc325005e6382a",
+        "name" : "Response",
+        "source" : "75bc325005e6382a.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486936168,
+        "stop" : 1611486936584,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36fc087e7e68166f",
+        "name" : "Screenshot",
+        "source" : "36fc087e7e68166f.png",
+        "type" : "image/png",
+        "size" : 111100
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then deatils of Shruti and Sharma should be matched"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f27e4f0301ab755",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463985842,
+        "stop" : 1611463989160,
+        "duration" : 3318
+      }
+    }, {
+      "uid" : "4b3ea81a6e4ec192",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452353766,
+        "stop" : 1611452357573,
+        "duration" : 3807
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2aa27ff5f8b745bb.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

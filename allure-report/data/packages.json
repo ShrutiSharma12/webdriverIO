@@ -1,0 +1,165 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "The automation practice website: As a user, I can signin the website and do a checkout",
+    "children" : [ {
+      "name" : "Given user on the login page",
+      "uid" : "3d313dc41e500ea1",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486853981,
+        "stop" : 1611486867722,
+        "duration" : 13741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user clicks on signin button",
+      "uid" : "7ab708adf286a759",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486867722,
+        "stop" : 1611486873966,
+        "duration" : 6244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user enters \"valid email\"",
+      "uid" : "526f98be17653ad3",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486873966,
+        "stop" : 1611486874882,
+        "duration" : 916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user clicks on createaccount button",
+      "uid" : "82df23869d8cfbc1",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486874883,
+        "stop" : 1611486875538,
+        "duration" : 655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user fills form with details with Shruti and Sharma",
+      "uid" : "e9f825261b299d61",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486875538,
+        "stop" : 1611486889327,
+        "duration" : 13789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user checks for Printed Chiffon Dress",
+      "uid" : "11410e803e53b965",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486889327,
+        "stop" : 1611486895935,
+        "duration" : 6608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user adds Printed Chiffon Dress to cart",
+      "uid" : "2bed628f2767f075",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486895935,
+        "stop" : 1611486896646,
+        "duration" : 711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user proceeds to checkout",
+      "uid" : "ac5c432fb77c513f",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486896646,
+        "stop" : 1611486910321,
+        "duration" : 13675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "When user continue till payments",
+      "uid" : "8c4e25ba33b7515c",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486910322,
+        "stop" : 1611486927362,
+        "duration" : 17040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "Then Printed Chiffon Dress should match",
+      "uid" : "cd22461a27fcbc1a",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486927363,
+        "stop" : 1611486930966,
+        "duration" : 3603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "Then deatils of Shruti and Sharma should be matched",
+      "uid" : "2aa27ff5f8b745bb",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486930969,
+        "stop" : 1611486936587,
+        "duration" : 5618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "7747c87b8f06df84",
+      "parentUid" : "63461efa0c981611276e1073b8e1b791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486936588,
+        "stop" : 1611486936589,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "63461efa0c981611276e1073b8e1b791"
+  } ]
+}

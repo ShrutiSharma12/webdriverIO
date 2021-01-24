@@ -1,0 +1,147 @@
+{
+  "uid" : "2bed628f2767f075",
+  "name" : "When user adds Printed Chiffon Dress to cart",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.When user adds Printed Chiffon Dress to cart",
+  "historyId" : "51d0448cf320d076f1481231bf245daf",
+  "time" : {
+    "start" : 1611486895935,
+    "stop" : 1611486896646,
+    "duration" : 711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486895938,
+        "stop" : 1611486896000,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "773918bc19ce3b9",
+        "name" : "Request",
+        "source" : "773918bc19ce3b9.json",
+        "type" : "application/json",
+        "size" : 100
+      }, {
+        "uid" : "dca892453fad08c3",
+        "name" : "Response",
+        "source" : "dca892453fad08c3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/f7f93aba-55b6-4d85-b2ec-a5e6aca4e802/click",
+      "time" : {
+        "start" : 1611486896015,
+        "stop" : 1611486896186,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486896188,
+        "stop" : 1611486896639,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87cb400766852602",
+        "name" : "Screenshot",
+        "source" : "87cb400766852602.png",
+        "type" : "image/png",
+        "size" : 185156
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user adds Printed Chiffon Dress to cart"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce08f05db31e1cc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463961190,
+        "stop" : 1611463961652,
+        "duration" : 462
+      }
+    }, {
+      "uid" : "46b76c424d93d0ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452330384,
+        "stop" : 1611452330786,
+        "duration" : 402
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bed628f2767f075.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

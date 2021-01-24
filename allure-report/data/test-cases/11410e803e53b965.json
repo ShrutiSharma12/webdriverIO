@@ -1,0 +1,204 @@
+{
+  "uid" : "11410e803e53b965",
+  "name" : "When user checks for Printed Chiffon Dress",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.When user checks for Printed Chiffon Dress",
+  "historyId" : "16086c47f3a02c918594aa6866884aa6",
+  "time" : {
+    "start" : 1611486889327,
+    "stop" : 1611486895935,
+    "duration" : 6608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486889328,
+        "stop" : 1611486889359,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a48a0c53797cde53",
+        "name" : "Request",
+        "source" : "a48a0c53797cde53.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "4cb228a423a2b633",
+        "name" : "Response",
+        "source" : "4cb228a423a2b633.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/42b08131-b1c5-40bb-84e1-e52871359143/clear",
+      "time" : {
+        "start" : 1611486889361,
+        "stop" : 1611486889414,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/42b08131-b1c5-40bb-84e1-e52871359143/value",
+      "time" : {
+        "start" : 1611486889449,
+        "stop" : 1611486889597,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c1dab1c7e2102c3",
+        "name" : "Request",
+        "source" : "2c1dab1c7e2102c3.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1611486889598,
+        "stop" : 1611486895268,
+        "duration" : 5670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b1c6388b9497830",
+        "name" : "Request",
+        "source" : "7b1c6388b9497830.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1611486895269,
+        "stop" : 1611486895287,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486895289,
+        "stop" : 1611486895925,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec7c076398f79174",
+        "name" : "Screenshot",
+        "source" : "ec7c076398f79174.png",
+        "type" : "image/png",
+        "size" : 205238
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user checks for Printed Chiffon Dress"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8b3b52fcbb746a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463958338,
+        "stop" : 1611463961189,
+        "duration" : 2851
+      }
+    }, {
+      "uid" : "8d22feda10a7ef90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452327815,
+        "stop" : 1611452330384,
+        "duration" : 2569
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11410e803e53b965.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

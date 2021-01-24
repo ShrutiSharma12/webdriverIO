@@ -1,0 +1,121 @@
+[ {
+  "uid" : "8c4e25ba33b7515c",
+  "name" : "When user continue till payments",
+  "time" : {
+    "start" : 1611486910322,
+    "stop" : 1611486927362,
+    "duration" : 17040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11410e803e53b965",
+  "name" : "When user checks for Printed Chiffon Dress",
+  "time" : {
+    "start" : 1611486889327,
+    "stop" : 1611486895935,
+    "duration" : 6608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82df23869d8cfbc1",
+  "name" : "When user clicks on createaccount button",
+  "time" : {
+    "start" : 1611486874883,
+    "stop" : 1611486875538,
+    "duration" : 655
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ab708adf286a759",
+  "name" : "When user clicks on signin button",
+  "time" : {
+    "start" : 1611486867722,
+    "stop" : 1611486873966,
+    "duration" : 6244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9f825261b299d61",
+  "name" : "When user fills form with details with Shruti and Sharma",
+  "time" : {
+    "start" : 1611486875538,
+    "stop" : 1611486889327,
+    "duration" : 13789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d313dc41e500ea1",
+  "name" : "Given user on the login page",
+  "time" : {
+    "start" : 1611486853981,
+    "stop" : 1611486867722,
+    "duration" : 13741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac5c432fb77c513f",
+  "name" : "When user proceeds to checkout",
+  "time" : {
+    "start" : 1611486896646,
+    "stop" : 1611486910321,
+    "duration" : 13675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bed628f2767f075",
+  "name" : "When user adds Printed Chiffon Dress to cart",
+  "time" : {
+    "start" : 1611486895935,
+    "stop" : 1611486896646,
+    "duration" : 711
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd22461a27fcbc1a",
+  "name" : "Then Printed Chiffon Dress should match",
+  "time" : {
+    "start" : 1611486927363,
+    "stop" : 1611486930966,
+    "duration" : 3603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa27ff5f8b745bb",
+  "name" : "Then deatils of Shruti and Sharma should be matched",
+  "time" : {
+    "start" : 1611486930969,
+    "stop" : 1611486936587,
+    "duration" : 5618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7747c87b8f06df84",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1611486936588,
+    "stop" : 1611486936589,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "526f98be17653ad3",
+  "name" : "When user enters \"valid email\"",
+  "time" : {
+    "start" : 1611486873966,
+    "stop" : 1611486874882,
+    "duration" : 916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,168 @@
+{
+  "uid" : "526f98be17653ad3",
+  "name" : "When user enters \"valid email\"",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.When user enters \"valid email\"",
+  "historyId" : "13c7b964e425f96a04eb89f360d7a78d",
+  "time" : {
+    "start" : 1611486873966,
+    "stop" : 1611486874882,
+    "duration" : 916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486873968,
+        "stop" : 1611486873999,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63111d535c837107",
+        "name" : "Request",
+        "source" : "63111d535c837107.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "6e97f04de59dca62",
+        "name" : "Response",
+        "source" : "6e97f04de59dca62.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/de698ec1-cc1b-4414-b86c-2a0074b9ecd8/clear",
+      "time" : {
+        "start" : 1611486874003,
+        "stop" : 1611486874083,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/de698ec1-cc1b-4414-b86c-2a0074b9ecd8/value",
+      "time" : {
+        "start" : 1611486874095,
+        "stop" : 1611486874349,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13fa0d206d3408ea",
+        "name" : "Request",
+        "source" : "13fa0d206d3408ea.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486874351,
+        "stop" : 1611486874873,
+        "duration" : 522
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e53cc8e3a5a32ae",
+        "name" : "Screenshot",
+        "source" : "e53cc8e3a5a32ae.png",
+        "type" : "image/png",
+        "size" : 118415
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user enters \"valid email\""
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f940b2c1768a70b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463946405,
+        "stop" : 1611463947117,
+        "duration" : 712
+      }
+    }, {
+      "uid" : "8e28733d03fc0941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452317455,
+        "stop" : 1611452317985,
+        "duration" : 530
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "526f98be17653ad3.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

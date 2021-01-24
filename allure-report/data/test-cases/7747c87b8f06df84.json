@@ -1,0 +1,98 @@
+{
+  "uid" : "7747c87b8f06df84",
+  "name" : "Hook",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.Hook",
+  "historyId" : "868e19c6e9e0d49ede6753098f71d069",
+  "time" : {
+    "start" : 1611486936588,
+    "stop" : 1611486936589,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b396ed3cf736f22b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611486853979,
+        "stop" : 1611486853980,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "64c367315369ad37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463989161,
+        "stop" : 1611463989162,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6ea13e7318e8073d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463934293,
+        "stop" : 1611463934298,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "4f484b1be761afac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452357573,
+        "stop" : 1611452357573,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46a726d8932cb667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452308398,
+        "stop" : 1611452308400,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7747c87b8f06df84.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

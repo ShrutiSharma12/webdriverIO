@@ -1,0 +1,147 @@
+{
+  "uid" : "7ab708adf286a759",
+  "name" : "When user clicks on signin button",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.When user clicks on signin button",
+  "historyId" : "6a04c373ac292bddc880bb99075f12b5",
+  "time" : {
+    "start" : 1611486867722,
+    "stop" : 1611486873966,
+    "duration" : 6244
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611486867728,
+        "stop" : 1611486867787,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f20ff9210791fe",
+        "name" : "Request",
+        "source" : "3f20ff9210791fe.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "8a9f30c7458488e8",
+        "name" : "Response",
+        "source" : "8a9f30c7458488e8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e4ca5d68-f340-4c87-a800-f523d5eee0a7/click",
+      "time" : {
+        "start" : 1611486867816,
+        "stop" : 1611486872145,
+        "duration" : 4329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611486872147,
+        "stop" : 1611486873963,
+        "duration" : 1816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19e5e08e7eb05ecc",
+        "name" : "Screenshot",
+        "source" : "19e5e08e7eb05ecc.png",
+        "type" : "image/png",
+        "size" : 114613
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user clicks on signin button"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "232aa5887dbb30ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611463942837,
+        "stop" : 1611463946404,
+        "duration" : 3567
+      }
+    }, {
+      "uid" : "caa31295bd843586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611452315168,
+        "stop" : 1611452317454,
+        "duration" : 2286
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ab708adf286a759.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

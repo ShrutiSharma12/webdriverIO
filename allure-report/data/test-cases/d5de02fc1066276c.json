@@ -1,0 +1,135 @@
+{
+  "uid" : "d5de02fc1066276c",
+  "name" : "Then Printed Chiffon Dress should match",
+  "fullName" : "The automation practice website: As a user, I can signin the website and do a checkout.Then Printed Chiffon Dress should match",
+  "historyId" : "bb55b6c389160456f04416ca52333ad5",
+  "time" : {
+    "start" : 1611463982442,
+    "stop" : 1611463985842,
+    "duration" : 3400
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611463982444,
+        "stop" : 1611463982485,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd70a250e0dec11b",
+        "name" : "Request",
+        "source" : "cd70a250e0dec11b.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d6cf902b3d85d036",
+        "name" : "Response",
+        "source" : "d6cf902b3d85d036.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/a2abd93f-7630-429b-a31b-4b21c76a441a/text",
+      "time" : {
+        "start" : 1611463982491,
+        "stop" : 1611463982514,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c45f9180d0c31270",
+        "name" : "Response",
+        "source" : "c45f9180d0c31270.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611463985534,
+        "stop" : 1611463985839,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1c11f2499aaec16",
+        "name" : "Screenshot",
+        "source" : "b1c11f2499aaec16.png",
+        "type" : "image/png",
+        "size" : 147389
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Printed Chiffon Dress should match"
+  }, {
+    "name" : "package",
+    "value" : "The automation practice website: As a user, I can signin the website and do a checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5de02fc1066276c.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}
