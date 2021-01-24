@@ -25,5 +25,5 @@ right click on package.json, open in integrated terminal and choose git bash ter
 
 
 ## Commands to Run:
-to run the scenario: npm run test
-to view html allure report: npm run open-allure
+### to run the scenario: npm run test
+### to view html allure report: npm run open-allure
