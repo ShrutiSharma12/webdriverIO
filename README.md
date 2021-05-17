@@ -17,7 +17,7 @@ Reports - main folder for capturing allure report
 	allure-results - contains all step related results
 	Screenshots - captures screenshot after execution of each step defination
 package.json - all required dependencies
-wdio.conf.js - all configuration items
+wdio.conf.js - all configuration item
 
 
 ## How to run:
